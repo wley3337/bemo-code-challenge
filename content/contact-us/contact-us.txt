@@ -1,0 +1,6 @@
+title: Contact Us
+----
+text: Contact Us Page
+----
+Searchable: true
+----
