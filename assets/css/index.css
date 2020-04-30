@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+}
+
+/* NAV MENU */
+nav {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "img links";
+}
+
+.lp-img {
+  grid-area: img;
+  padding-right: 1rem;
+}
+.lp-img > img {
+  width: 14rem;
+}
+
+.lp-menu {
+  grid-area: links;
+  align-self: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+.lp-menu > * {
+  font-size: 1.5rem;
+}
+
+/* HOME PAGE */
+
+.title-wrapper {
+  margin-top: 10rem;
+
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.title-wrapper > .image {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  place-self: center center;
+}
+.title-wrapper > .image > img {
+  width: 100%;
+}
+
+.title-wrapper > .title {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  z-index: 1;
+  place-self: center center;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+.home-wrapper {
+  padding: 3rem;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000066;
+  min-height: 4rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  place-content: center center;
+  color: #fff;
+  padding: 1rem 3rem;
+}

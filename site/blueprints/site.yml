@@ -1,3 +1,15 @@
-title: Site
-preset: pages
+title: Site Wide Settings
 unlisted: true
+sections:
+  fields:
+    fields:
+      info:
+        label:
+        text: <center><p><strong>Please note</strong> that you want to use the Google Tag Manager and Facebook Pixel codes/scripts using the JAVASCRIPT code.</p><p>Both should include a set of script `<script> </script>` tags.</p></center>
+      google:
+        label: Google Tag Script (Placed inside of script tags in the header)
+        type: textarea
+      facebook:
+        label: Facebook Pixel (This will be placed inside the header)
+        type: textarea
+  pages:
