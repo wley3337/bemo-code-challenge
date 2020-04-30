@@ -70,7 +70,7 @@ Searchable: false
 
 ----
 
-Imagetitle: #  CDA Interview Guide
+Imagetitle: # CDA Interview Guide
 
 ----
 

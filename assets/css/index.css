@@ -1,17 +1,42 @@
 body {
   height: 100vh;
   width: 100vw;
+  font: Arial, Verdana, Helvetica, sans-serif;
+}
+/* LOGIN */
+.login-wrapper {
   display: grid;
-  justify-content: center;
+  place-content: center center;
+  min-height: 80%;
+  grid-gap: 3rem;
+}
+.login-img {
+  justify-self: center;
+  max-height: 10rem;
+}
+.login-img > img {
+  height: 6rem;
+}
+.login-wrapper > form {
+  display: grid;
+  grid-gap: 0.5rem;
+  place-content: center center;
+}
+.login-wrapper > form > div {
+  display: grid;
+  grid-gap: 0.5rem;
+  place-content: center center;
 }
 
 /* NAV MENU */
 nav {
   width: 100%;
+  max-height: 12rem;
   background-color: rgba(255, 255, 255, 0.7);
   position: fixed;
 }
 .menu {
+  padding: 1rem 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "img links";
@@ -21,6 +46,7 @@ nav {
   grid-area: img;
   padding-right: 1rem;
 }
+
 .lp-img > img {
   width: 14rem;
 }
@@ -30,9 +56,10 @@ nav {
   align-self: center;
   display: grid;
   grid-auto-flow: column;
-  grid-gap: 1rem;
-  justify-content: center;
+  grid-gap: 3.5rem;
+  justify-self: end;
 }
+
 .lp-menu > * {
   font-size: 1.5rem;
 }
@@ -40,16 +67,13 @@ nav {
 /* HOME PAGE */
 
 .title-wrapper {
-  margin-top: 10rem;
-
-  width: 100vw;
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 .title-wrapper > .image {
   grid-column: 1/-1;
   grid-row: 1/2;
-  place-self: center center;
 }
 .title-wrapper > .image > img {
   width: 100%;
@@ -61,13 +85,68 @@ nav {
   z-index: 1;
   place-self: center center;
   text-align: center;
-  font-size: 3rem;
+  font-size: 300%;
   color: #fff;
+  border-bottom: 0.1rem solid #fff;
+  width: 100%;
 }
 .home-wrapper {
-  padding: 3rem;
+  padding: 5rem;
+}
+.blue {
+  color: #000066;
+  font-weight: bold;
 }
 
+/* CONTACT US */
+.contact-us-wrapper {
+  padding: 5rem;
+  display: grid;
+  align-content: center;
+}
+
+.contact-info {
+  justify-self: start;
+}
+.inline > * {
+  display: inline;
+}
+.bold {
+  font-weight: bold;
+}
+.contact-text {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.contact-us-wrapper > form {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: grid;
+  justify-content: center;
+  grid-gap: 0.5rem;
+}
+
+.contact-us-wrapper > form > div {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 0.5rem;
+}
+.contact-us-wrapper > form > div > input {
+  color: #fff;
+  background-color: #ccc;
+  width: 100%;
+}
+.large-text-box {
+  min-height: 5rem;
+}
+.contact-us-wrapper > form > div > .button {
+  background-color: #999;
+  color: #006;
+}
 /* FOOTER */
 .footer {
   background-color: #000066;
@@ -77,4 +156,10 @@ nav {
   place-content: center center;
   color: #fff;
   padding: 1rem 3rem;
+}
+.footer > div > a {
+  color: #ff6600;
+}
+a.social {
+  color: #fff;
 }

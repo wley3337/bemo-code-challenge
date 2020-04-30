@@ -13,7 +13,7 @@
 
 </div>
 <div class="home-wrapper">
-  <?= $page->title()->kirbytext() ?>
+  <div class="blue"><?= $page->title()->kirbytext() ?></div>
   <?= $page->body()->kirbytext() ?>
 </div>
 <?= snippet('footer') ?>
