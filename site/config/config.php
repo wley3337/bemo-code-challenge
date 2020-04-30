@@ -2,5 +2,6 @@
 return [
   'panel' => [
     'install' => true
-  ]
+  ],
+  'debug' => true
 ];
