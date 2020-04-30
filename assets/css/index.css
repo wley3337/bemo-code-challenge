@@ -103,6 +103,7 @@ nav {
   padding: 5rem;
   display: grid;
   align-content: center;
+  justify-content: center;
 }
 
 .contact-info {
@@ -136,7 +137,7 @@ nav {
   grid-gap: 0.5rem;
 }
 .contact-us-wrapper > form > div > input {
-  color: #fff;
+  color: black;
   background-color: #ccc;
   width: 100%;
 }
