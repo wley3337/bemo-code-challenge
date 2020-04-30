@@ -1,0 +1,3 @@
+type: info
+headline: Formatting Information and Resources
+text: <center>If you would like additional information on MarkDown syntax for better text formatting, you can find that information <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">here</a>. You can find Kirby specific syntax <a href"https://getkirby.com/docs/guide/content/text-formatting" target="_blank">here</a>.</center>

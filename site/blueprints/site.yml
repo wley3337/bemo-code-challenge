@@ -1,15 +1,33 @@
 title: Site Wide Settings
 unlisted: true
-sections:
-  fields:
-    fields:
-      info:
-        label:
-        text: <center><p><strong>Please note</strong> that you want to use the Google Tag Manager and Facebook Pixel codes/scripts using the JAVASCRIPT code.</p><p>Both should include a set of script `<script> </script>` tags.</p></center>
-      google:
-        label: Google Tag Script (Placed inside of script tags in the header)
-        type: textarea
-      facebook:
-        label: Facebook Pixel (This will be placed inside the header)
-        type: textarea
-  pages:
+columns:
+  left:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          info:
+            label:
+            text: <center><p><strong>Please note</strong> that you want to use the Google Tag Manager and Facebook Pixel codes/scripts using the JAVASCRIPT code.</p><p>Both should include a set of script&colon; &ltscript> &lt/script> tags.</p></center>
+          google:
+            label: Google Tag Script (This will be placed inside the header)
+            type: textarea
+          facebook:
+            label: Facebook Pixel (This will be placed inside the header)
+            type: textarea
+  right:
+    width: 1/3
+    sections:
+      images:
+        headline: Logo Image
+        info: Replace image to change on page.
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1
+        size: small
+  bottom:
+    width: 1/1
+    sections:
+      pages:

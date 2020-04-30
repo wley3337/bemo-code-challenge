@@ -1,4 +1,5 @@
 <?= snippet('header') ?>
+<?= snippet('protected') ?>
 
 <?= snippet('landing-page-header') ?>
 <div class="title-wrapper">

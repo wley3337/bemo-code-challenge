@@ -1,0 +1,5 @@
+title: Client
+description: Site access without panel access
+permissions:
+  access:
+    panel: false

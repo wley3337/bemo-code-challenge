@@ -2,22 +2,6 @@ Title: FREE Ultimate Guide to CDA Interviews: Tips & Proven Strategies to Help Y
 
 ----
 
-Searchable: false
-
-----
-
-Imagetitle: #  CDA Interview Guide
-
-----
-
-Menutext: Main
-
-----
-
-Subheading: Ultimate Guide to CDA Structured Interview: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Interview
-
-----
-
 Body:
 
 ## What is the purpose of the dental school interview?
@@ -79,3 +63,27 @@ Click here to learn more about our money-back guarantee CDA interview preparatio
 Reference:
 
 Poole A., Catano, VM., and Cunningham, DP. Predicting performance in Canadian dental schools: the new CDA structured interview, a new personality assessment, and the DAT. Journal of Dental Education. 2007; 71: 664 - 676.
+
+----
+
+Searchable: false
+
+----
+
+Imagetitle: #  CDA Interview Guide
+
+----
+
+Menutext: Main
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 
+
+----
+
+Subheading: Ultimate Guide to CDA Structured Interview: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Interview

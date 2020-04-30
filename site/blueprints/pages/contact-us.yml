@@ -1,0 +1,46 @@
+title: Home Page
+columns:
+  top:
+    width: 1/1
+    sections:
+      information:
+        extends: sections/information
+  left:
+    width: 1/2
+    sections:
+      body:
+        type: fields
+        fields:
+          email:
+            label: Email address
+            type: text
+          phone:
+            label: Phone number
+            type: text
+          menutext:
+            label: Menu text displayed
+            type: text
+          heading:
+            label: Heading of the page
+            type: textarea
+          text:
+            label: Page text
+            type: textarea
+  right:
+    width: 1/2
+    sections:
+      details:
+        type: fields
+        fields:
+          searchable:
+            helper: This sets if a page can be found by a search engine
+            type: toggle
+          metadata: fields/metafields
+      images:
+        headline: Image for top of page
+        info: Replace image to change on page.
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1
+        size: small

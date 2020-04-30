@@ -1,6 +1,10 @@
 <?= snippet('header') ?>
+<?= snippet('protected') ?>
 <?= snippet('landing-page-header') ?>
 <div class="contact-us-wrapper">
+  <div>
+    <?= $page->image('contact-us.png') ?>
+  </div>
   <div>
     <h1> BeMo Academic Consulting Inc.</h1>
     <p><span class="contact-text">Toll Free:</span> <?= $page->phone()->kirbytext() ?>

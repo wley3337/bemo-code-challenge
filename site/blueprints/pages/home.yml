@@ -3,11 +3,7 @@ columns:
   top:
     width: 1/1
     sections:
-      fields:
-        fields:
-          info:
-            label:
-            text: <center>If you would like additional information on MarkDown syntax for better text formatting, you can find that information <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">here</a>. You can find Kirby specific syntax <a href"https://getkirby.com/docs/guide/content/text-formatting" target="_blank">here</a>.</center>
+      information: sections/information
 
   # main content
   main:
@@ -25,7 +21,7 @@ columns:
   sidebar:
     width: 1/3
     sections:
-      meta:
+      specifics:
         type: fields
         fields:
           searchable:
@@ -38,8 +34,9 @@ columns:
           menutext:
             label: Menu text displayed
             type: text
+          metadata: fields/metafields
       images:
-        headline: Images for home page
+        headline: Image for top of page
         info: Replace image to change on page.
         type: files
         layout: cards
