@@ -14,7 +14,7 @@
   <?php if (isset($alert['error'])) : ?>
     <div><?= $alert['error'] ?></div>
   <?php endif ?>
-  <form method="post" action="<?= $page->url() ?>">
+  <form method="POST" action="<?= $page->url() ?>">
     <div>
       <label for="name">NAME<abbr title="required">*</abbr></label>
       <input type="name" id="name" name="name" value="<?= $data['name'] ?? '' ?>">
