@@ -36,13 +36,13 @@ return function ($kirby, $pages, $page) {
       try {
         $kirby->email([
           'template' => 'email',
-          'from'     => 'wley3337@gmail.com',
+          'from'     => esc($page->email()),
           'replyTo'  => $data['email'],
-          'to'       => 'wley3337@gmail.com',
+          'to'       => esc($page->email()),
           'subject'  => esc($data['name']) . ' sent you a message from your contact form',
           'data'     => [
             'text'   => esc($data['text']),
-            'sender' => esc($data['name'])
+            'sender' => esc($data['name']) . 'there email is: ' . esc($data['email'])
           ]
         ]);
       } catch (Exception $error) {
